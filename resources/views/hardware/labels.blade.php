@@ -168,8 +168,8 @@ $qr_size = ($settings->alt_barcode_enabled=='1') && ($settings->alt_barcode!='')
     </div>
 
     @if ($count % $settings->labels_per_page == 0)
-        <div class="page-break"></div>
-        <div class="next-padding">&nbsp;</div>
+        <!-- <div class="page-break"></div> -->
+        <!-- <div class="next-padding">&nbsp;</div> -->
     @endif
 
 @endforeach
