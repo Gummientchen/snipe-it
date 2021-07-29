@@ -13,6 +13,11 @@ __This is web-based software__. This means there is no executable file (aka no .
 
 -----
 
+### Custom Label Print
+As we use a label printer which doesn't like the page breaks, we needed a version without this. It also makes the QR Code 25mm width at max. Only changed file is -> resources/views/hardware/labels.blade.php
+
+-----
+
 ### Installation
 
 For instructions on installing and configuring Snipe-IT on your server, check out the [installation manual](https://snipe-it.readme.io/docs). (Please see the [requirements documentation](https://snipe-it.readme.io/docs/requirements) for full requirements.)
