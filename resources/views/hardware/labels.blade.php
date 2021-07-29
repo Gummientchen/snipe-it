@@ -36,11 +36,12 @@ $qr_size = ($settings->alt_barcode_enabled=='1') && ($settings->alt_barcode!='')
     }
     div.qr_img {
         width: {{ $qr_size }}in;
-        height: {{ $qr_size }}in;
 
         float: left;
-        display: inline-flex;
         padding-right: .15in;
+        
+        aspect-ratio: 1 / 1;
+        max-width: 25mm;
     }
     img.qr_img {
 
